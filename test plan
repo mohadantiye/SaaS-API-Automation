@@ -1,0 +1,23 @@
+QA Strategy and Test Plan: SaaS Launch
+Lead Tester: Muhammad Nasir
+Status: Ready for Execution
+
+Why this plan exists
+Before we go live, we need to ensure the primary journey the user takes is flawless. More importantly, we need to find where the edge cases break the system. This plan bridges the gap between technical stability and a smooth user experience.
+
+My Focus Areas
+The Revenue Loop: If Stripe fails, the business fails. I will be testing every pricing tier to ensure webhooks trigger correctly.
+
+AI Reliability: Testing the AI Receptionist and Chat not just for correctness, but for response speed and dead-end logic.
+
+Integration Health: Verifying that data does not just send to Shopify or QuickBooks, but that it maps to the correct fields.
+
+My Toolkit
+Backend: Postman for deep-dive API automation scripts.
+
+Frontend: Manual exploration on Chrome and Safari for Desktop and Mobile.
+
+Reporting: Real-time updates via Upwork chat with clear steps to reproduce.
+
+Exit Criteria
+I will provide a final sign-off only when all Critical launch-blocking and Major UI/UX breaking issues are verified as fixed.
